@@ -1,2 +1,1 @@
-# cv_vitae
-CV for Rui Pei
+I'm on job market (expected graduation: May 2021). Please contact me with job opportunities, thank you!
