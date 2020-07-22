@@ -1,4 +1,9 @@
-start_date,end_date,degree,university,department,location,pi,dissertation
-2017,2021 (expected),PhD,University of Pennsylvania,Annenberg School for Communication,"Philadelphia, PA",Emily B. Falk, 
-2015,2017,MA,University of Pennsylvania,Annenberg School for Communication,"Philadelphia, PA",Emily B. Falk, 
-2011,2015,B.Sc,Brown University,Cognitive Neuroscience,"Providence, RI",,
+﻿start_date,end_date,degree,university,department,location,pi,dissertation
+2016,2021 (expected),PhD,University of Pennsylvania,Neuroscience Graduate Group,"Philadelphia, PA",Alex Proekt, 
+2016,2018,MS,University of Pennsylvania,Neuroscience Graduate Group,"Philadelphia, PA",Alex Proekt, 
+2014,2016,BS,University of Washington,Physics,"Seattle, WA",,
+2009,2010,Information-Technology Engineers Examination,HAL Tokyo College of Technology and Design,Information Technology,"Tokyo, Japan",,
+2008,2009,N/A,Edmonds Community College,Information Technology,"Edmonds, WA",,
+2006,2008,N/A,Kudan Institute of Japanese Language and Culture,Japanese language,"Tokyo, Japan",,
+2005,2006,N/A,University of Washington,Physics and Japanese language,"Seattle, WA",,
+2004,2005,N/A,North Seattle Community College,Physics and Japanese language,"Seattle, WA",,

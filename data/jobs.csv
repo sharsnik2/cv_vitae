@@ -1,17 +1,22 @@
-Start,End,What,With,Where,Tag,Why
-9/2/15,5/15/21,Research fellow,Communication Neuroscience Lab,"Philadelphia, PA",research,Combinging communication and developmental neuroscience to understand factor that promote adolescent health.
-,,,,,,"1. Characterize positive social risk taking during adolescence, investigate how social factors could influence social risk taking, and what neuropsychological mechanisms may subserve these influences. "
-,,,,,,2. Investigate how cultural context may lead to differential developmental trajectories of susceptibility to peer influence.
-5/20/13,5/20/15,Research Asistant,Pediatric Anxiety Research Clinic of Rhode Island Hospital,"Providence, RI",research,Investigate cognitive and emotional processes in exposure-based treatments for pediatric anxiety disorder and OCD.
-,,,,,,Designed an hour-long MATLAB and Psychtoolbox based behavioral task for a research project on Tourette's syndrome
-,,,,,,Assist fMRI and TMS neuropsychology experiments on tic suppression
-7/1/14,9/1/14,Summer Intern,The Neuromarketing Labs,"Stuttgart, Germany",research,Designed neuropsychological experiments to test efficacy and optimization strategies for a novel wearable product.
-,,,,,,Assisted EEG based neuromarketing studies to determine appropriate pricing of a commercial products.
-1/7/18,7/7/18,Research Intern,Microsoft Research Asia,"Beijing, China",research,Combined online survey and linguistic analyses to examine factors contributing to successful search engine advertisements.
-,,,,,,Examined the associations between personality traits and individuals' information seeking behavior.
-9/1/17,12/20/17,Graduate Teaching Assistant,University of Pennsylvania,"Philadelphia, PA",teaching,"Teaching assistance for COMM310, The Communication Research Experience."
-,,,,,,Directly supervise two undergraduate students during semester-long research projects.
-1/7/13,5/26/14,Undergraduate Teaching Assistant,Brown University,"Providence, RI",teaching,"TA for CLPS0010 Elementary Psychology (Spring 2013, Fall, 2014), and NEUR1030 Nrural Systems (Fall 2013)."
-,,,,,,"Responsible for weekly classes of 15 students to facilitate main lectures, collaborate with professors and other TAs with course material design."
-,,,,,,"Lead discussions, answer questions, and help review course materials."
-,,,,,,Grade weekly writing assignments and exam papers.
+﻿Start,End,What,With,Where,Tag,Why
+,,,,,,
+9/2/2016,present,Research fellow,Proekt Lab,"Philadelphia, PA",research,Developing methods for predicting future timing of behavior switches based on calcium imaging in C. elegans
+,,,,,,Developing methods to model dynamics of biological and artificial networks
+,,,,,,Assisting with electrophysiological recordings in mouse
+,,,,,,Building machine learning algorithms for decoding neuronal data
+9/1/2019,1/1/2020,Graduate Teaching Assistant,University of Pennsylvania,"Philadelphia, PA",teaching,PHYS 585/ BE 530 Theoretical and Computational Neuroscience
+,,,,,,"Ran office hours, advised students and wrote a machine learning based homework assignment"
+6/2/2016,9/1/2016,Instructor,iD Tech,"Villanova, PA",teaching,"Worked with high school children teaching C++, Arduino and game design"
+1/1/2016,6/1/2016,Laboratory Technician,Wiggin’s Biophysics Lab,"Seattle, WA",research,"In charge of computer and network maintenance, laboratory upkeep, ordering and maintaining laboratory supplies and equipment"
+6/1/2015,12/30/2015,Undergraduate Research Assistant,Wiggin’s Biophysics Lab,"Seattle, WA",research,Wrote a massively parallel graphics processing unit based Escherichia coli simulator for modeling the MinE/MinD interaction
+,,,,,,Worked my own project detailing the dynamics of F-Plasmid conjugation in E. coli
+,,,,,,Assisted in a project on E. coli cytoplasmic dynamics
+,,,,,,Several in-lab presentations on my work
+2/1/2012,2/1/2015,Project Leader/Owner,Fractal Entertainment,"Edmonds, WA",industry,"Team leader, business manager and lead programmer"
+,,,,,,Worked with a team of full time employees and contract workers
+,,,,,,"Dealt with all aspects of business: financials, product design, workflow, marketing and team communication"
+1/1/2011,1/1/2012,Software Engineer,Polygon Magic,"Tokyo, Japan",industry,Helped build and maintain a multi-million dollar game Sengoku Kingdom
+,,,,,,Entrusted with several key game systems to implement and maintain with autonomy
+,,,,,,"Heavy use of PHP, MySQL and HTML"
+,,,,,,Worked and communicated entirely in Japanese
+6/1/2008,9/1/2009,Undergraduate Teaching Assistant,Edmonds Community College,"Edmonds, WA",teaching,Worked with a class of Japanese students studying english
