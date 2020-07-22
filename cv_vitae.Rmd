@@ -1,12 +1,11 @@
 ---
-name: "Rui Pei"
+name: "Connor Brennan"
 position: ""
-address: "Annenberg School for Communication, University of Pennsylvania"
-www: ruipei1.github.io/website
-email: rui.pei@asc.upenn.edu
-twitter: ruipei_penn
-github: ruipei1
-orcid: 0000-0002-5251-0681
+address: "Perelman School of Medicine, University of Pennsylvania"
+www: sharsnik2.github.io/website/
+email: brenco@pennmedicine.upenn.edu
+github: sharsnik2
+orcid: 0000-0002-5329-7720
 aboutme: ""
 date: "`r format(Sys.time(), '%B %Y')`"
 output: 
@@ -37,7 +36,7 @@ library(glue)
 library(conflicted)
 conflict_prefer("filter", "dplyr")
 conflict_prefer("here", "here")
-setwd("E:/Git/cv_vitae")
+#setwd("E:/Git/cv_vitae")
 ```
 
 ```{r experience, inclue=FALSE}
@@ -84,6 +83,7 @@ edu <-
   mutate(pi = if_else(!is.na(pi), glue("PI: {pi}"), as.character(NA)),
          dissertation = glue("\\textbf{[dissertation]}", .open = "[", .close = "]")) %>% 
   gather( pi, key = "whytype", value = "why")
+edu = edu %>% filter(degree != "N/A") 
 edu["why"]
 ```
 ```{r outreach}
@@ -110,10 +110,10 @@ detailed_entries(edu,
 <!-- ^\*^ indicates undergraduate mentee author   -->
 
 ```{r publications}
-pubs = scholar::get_publications("UGCZ5GAAAAAJ", flush = TRUE) %>%
+pubs = scholar::get_publications("asa20tUAAAAJ", flush = TRUE) %>%
   mutate(author = as.character(author))
-pubs$author[which(pubs$journal == "Developmental Cognitive Neuroscience")] = 
-  "R Pei, N Lauharatanahirun, CN Cascio, MB O’Donnell, JT Shope, BG Simons-Morton, JM Vettel, EB Falk"
+# pubs$author[which(pubs$journal == "Developmental Cognitive Neuroscience")] = 
+#   "R Pei, N Lauharatanahirun, CN Cascio, MB O’Donnell, JT Shope, BG Simons-Morton, JM Vettel, EB Falk"
 pubs %>%
   
   # in review
@@ -208,12 +208,14 @@ awards %>%
   #        where = as.character(where))
 ```
 
-# Awards and Honors
+
+
 
 ```{r}
-awards %>% 
-  filter(!tag %in% c("failed", "travel", "grant")) %>% 
-  brief_entries(what = award, when = glue("{month(date, label = TRUE)} {year(date)}"), with = with)
+# # Awards and Honors
+# awards %>% 
+#   filter(!tag %in% c("failed", "travel", "grant")) %>% 
+#   brief_entries(what = award, when = glue("{month(date, label = TRUE)} {year(date)}"), with = with)
 ```
 
 
@@ -277,23 +279,25 @@ presentations %>%
                    .protect = FALSE)
 ```
 
-# Outreach
+
 
 ```{r}
-outreach %>%
-  arrange(desc(sortdate)) %>%
-  detailed_entries(when = When,
-                   what = Title,
-                   with = Organization,
-                   where = Location,
-                   why = Description)
+# # Outreach
+# outreach %>%
+#   arrange(desc(sortdate)) %>%
+#   detailed_entries(when = When,
+#                    what = Title,
+#                    with = Organization,
+#                    where = Location,
+#                    why = Description)
 ```
 
-# Service
 
-**Manuscript Reviews**
 ```{r}
-#set this up to pull from publoons some day.
+# # Service
+# 
+# **Manuscript Reviews**
+# #set this up to pull from publoons some day.
 ```
 
 
