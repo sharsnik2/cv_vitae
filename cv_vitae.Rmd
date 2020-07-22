@@ -204,8 +204,7 @@ awards %>%
   filter(tag == "grant") %>%
   detailed_entries(what = award, when = glue("{month(date, label = TRUE)} {year(date)}"),
                    why = amount) %>% 
-  mutate_all(as.character) #%>% 
-  # mutate(with = as.character(with),
+  mutate_all(as.character)
   #        when = as.character(when),
   #        where = as.character(where))
 ```
