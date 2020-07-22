@@ -195,6 +195,8 @@ jobs %>%
 #                    why = Award)
 ```
 
+
+
 # Grants
 
 ```{r}
@@ -280,6 +282,19 @@ presentations %>%
 ```
 
 
+# Industry experience
+
+```{r}
+jobs %>%
+  filter(Tag == "industry") %>%
+  detailed_entries(
+    what = What,
+    when = When,
+    with = With,
+    where = Where,
+    why = Why
+  )
+```
 
 ```{r}
 # # Outreach
@@ -301,17 +316,6 @@ presentations %>%
 ```
 
 
-```{r}
-# jobs %>%
-#   filter(Tag == "service") %>% 
-#   detailed_entries(
-#     what = What,
-#     when = When,
-#     with = With,
-#     where = Where,
-#     why = Why
-#   )
-```
 
 
 
