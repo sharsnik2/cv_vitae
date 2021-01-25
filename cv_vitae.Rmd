@@ -112,21 +112,21 @@ detailed_entries(edu,
 ```{r publications}
 pubs = scholar::get_publications("asa20tUAAAAJ", flush = TRUE) %>%
   mutate(author = as.character(author))
-# pubs$author[which(pubs$journal == "Developmental Cognitive Neuroscience")] = 
-#   "R Pei, N Lauharatanahirun, CN Cascio, MB O’Donnell, JT Shope, BG Simons-Morton, JM Vettel, EB Falk"
+
+
 pubs %>%
-  
+  filter(year != 2020) %>%
   # in review
-  # dplyr::add_row(
-  #   title = "Changes in tea plant secondary metabolite profiles as a function of leafhopper density and damage",
-  #   author = "ER Scott, X Li, JP Wei, N Kfoury, J Morimoto, MM Guo*, A Agyei*, A Robbat Jr, S Ahmed, SB Cash, TS Griffin, JR Stepp, WY Han, CM Orians",
-  #   journal = "Frontiers in Plant Science",
-  #   number = " ",
-  #   cites = 0,
-  #   year = "in review",
-  #   cid = NA,
-  #   pubid = NA
-  #   ) %>% 
+  dplyr::add_row(
+  title = "Topological Models of Neural Population Dynamics are Predictive, Interpretable, and Generalizable",
+  author = "Connor Brennan, Adeeti Aggarwal, Rui Pei, David Sussillo, Alex Proekt",
+  journal = "Nature Neuroscience",
+  number = " ",
+  cites = 0,
+  year = "submitted",
+  cid = NA,
+  pubid = NA
+  ) %>% 
   # add_row(
   #   title = "Using the right tool for the job: understanding the difference between unsupervised and supervised analyses of multivariate ecological data",
   #   author = "ER Scott, EE Crone",
@@ -145,6 +145,7 @@ pubs %>%
     where = journal
   )
 # bibliography_entries(here("My Publications.bib"), title = NULL)
+
 ```
 
 # Research Experience
