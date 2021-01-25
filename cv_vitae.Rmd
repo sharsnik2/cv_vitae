@@ -115,11 +115,10 @@ pubs = scholar::get_publications("asa20tUAAAAJ", flush = TRUE) %>%
 
 
 pubs %>%
-  filter(year != 2020) %>%
   # in review
   dplyr::add_row(
   title = "Topological Models of Neural Population Dynamics are Predictive, Interpretable, and Generalizable",
-  author = "Connor Brennan, Adeeti Aggarwal, Rui Pei, David Sussillo, Alex Proekt",
+  author = "C Brennan, A Aggarwal, R Pei, D Sussillo, A Proekt",
   journal = "Nature Neuroscience",
   number = " ",
   cites = 0,
